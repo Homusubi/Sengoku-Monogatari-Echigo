@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_RF_UESUGI_KENSHIN " Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_RF_UESUGI_KENSHIN " Name="LOC_LEADER_RF_UESUGI_KENSHIN _NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_RF_UESUGI_KENSHIN " AgendaType="AGENDA_I_FIGHT_WITH_THE_SWORD"/>
+	</HistoricalAgendas>
+	<AiListTypes>
+		<Row ListType="UesugiKenshinCivics"/>
+		<Row ListType="UesugiKenshinTechs"/>
+		<Row ListType="UesugiKenshinWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="UesugiKenshinBuildingsWonders" LeaderType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" System="Buildings"/>
+		<Row ListType="UesugiKenshinCivics" LeaderType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" System="Civics"/>
+		<Row ListType="UesugiKenshinTechs" LeaderType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="UesugiKenshinBuildingsWonders" Item="BUILDING_HAGIA_SOPHIA"/>
+		<Row ListType="UesugiKenshinBuildingsWonders" Item="BUILDING_STONEHENGE"/>
+		<Row ListType="UesugiKenshinCivics" Item="CIVIC_THEOLOGY"/>
+		<Row ListType="UesugiKenshinCivics" Item="CIVIC_CIVIL_SERVICE"/>
+		<Row ListType="UesugiKenshinCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row ListType="UesugiKenshinCivics" Item="CIVIC_DIVINE_RIGHT"/>
+		<Row ListType="UesugiKenshinTechs" Item="TECH_MILITARY_ENGINEERING"/>
+		<Row ListType="UesugiKenshinTechs" Item="ASTROLOGY"/>
+		<Row ListType="UesugiKenshinTechs" Item="EDUCATION"/>
+	</AiFavoredItems>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_RF_UESUGI_KENSHIN " TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" Name="LOC_TRAIT_LEADER_RF_AVATAR_OF_BISHAMON_NAME" Description="LOC_TRAIT_LEADER_RF_AVATAR_OF_BISHAMON_DESCRIPTION"/>
+		<Row TraitType="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD" Name="LOC_TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_NAME" Description="LOC_TRAIT_LEADER_RF_I_FIGHT_WITH_THE_SWORD_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_UNIT_KILL_FAITH"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_SHRINE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_TEMPLE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_STAVE_CHURCH_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_CATHEDRAL_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_GURDWARA_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_MEETING_HOUSE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_MOSQUE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_PADOGA_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_SYNAGOGUE_PRODUCTION"/>
+		<Row TraitType="TRAIT_LEADER_RF_AVATAR_OF_BISHAMON" ModifierId="TRAIT_RF_WAT_PRODUCTION"/>
+		<Row TraitType="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD" ModifierId="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_LUX"/>
+		<Row TraitType="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD" ModifierId="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_HAPPINESS"/>
+		<Row TraitType="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD" ModifierId="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_NO_LUX"/>
+		<Row TraitType="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD" ModifierId="TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_NO_HAPPINESS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_RF_I_FIGHT_WITH_THE_SWORD_LUX</ModifierId>
+			<ModifierType>AGENDA_HAS_DESIRED_LUXURY</ModifierType>
+		<Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_HAPPINESS</ModifierId>
+			<ModifierType>AGENDA_HIGH_HAPPINESS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierID>TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_NO_LUX</ModifierId>
+			<ModifierType>AGENDA_HAS_NO_DESIRED_LUXURY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_NO_HAPPINESS</ModifierId>
+			<ModifierType>AGENDA_LOW_HAPPINESS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_UNIT_KILL_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_SHRINE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_TEMPLE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_STAVE_CHURCH_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>		
+		<Row>
+			<ModifierId>TRAIT_RF_CATHEDRAL_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_GURDWARA_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+				<Row>
+			<ModifierId>TRAIT_RF_MEETING_HOUSE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+				<Row>
+			<ModifierId>TRAIT_RF_MOSQUE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_PADOGA_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_SYNAGOGUE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_WAT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_HAPPINESS</ModifierID>
+			<Name>InitialValue</Name>
+			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_LUX</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_NO_HAPPINESS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_AGENDA_RF_I_FIGHT_WITH_THE_SWORD_NO_LUX</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_UNIT_KILL_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_UNIT_KILL_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>+5</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_SHRINE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_SHRINE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_TEMPLE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_TEMPLE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_STAVE_CHURCH_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_STAVE_CHURCH_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_CATHEDRAL_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_CATHEDRAL_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_GURDWARA_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_GURDWARA_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_MEETING_HOUSE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_MEETING_HOUSE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_MOSQUE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_MOSQUE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_PADOGA_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_PADOGA_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_SYNAGOGUE_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_SYNAGOGUE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row><Row>
+			<ModifierId>TRAIT_RF_WAT_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RF_WAT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>+7</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>
